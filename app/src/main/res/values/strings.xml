@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Parent Dashboard</string>
+    <string name="login">Login - Parent App</string>
+    <string name="loginbt">Login</string>
+    <string name="username">User name</string>
+    <string name="password">Password</string>
+    <string name="signup">Sign Up</string>
+    <string name="fullname">Full Name</string>
+    <string name="email">Email</string>
+    <string name="signuphere">Create a new Account? Sign Up</string>
+    <string name="loginhere">Already have an account? Login here</string>
+
+</resources>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="351dp"
+        android:layout_height="499dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="32dp"
+        android:background="#fff"
+        android:orientation="vertical"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/textViewChild"
+            android:layout_width="318dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:baselineAligned="false"
+            android:text="Enter Child details need to be updated"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+
+
+        <EditText
+            android:id="@+id/editTextChildId"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="child_id"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:textSize="20sp"
+            android:background="@color/gray"
+            android:layout_marginTop="20dp"
+            />
+
+
+
+
+        <EditText
+            android:id="@+id/editTextChildName"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Name"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:textSize="20sp"
+            android:background="@color/gray"
+            android:layout_marginTop="20dp"/>
+
+
+
+
+        <EditText
+            android:id="@+id/editTextChildMName"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Gender (M - Male, F - Female)"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:textSize="20sp"
+            android:background="@color/gray"
+            android:layout_marginTop="20dp"/>
+
+
+
+
+
+        <EditText
+            android:id="@+id/editTextChildLName"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="School"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:textSize="20sp"
+            android:background="@color/gray"
+            android:layout_marginTop="20dp"/>
+
+
+        <EditText
+            android:id="@+id/editTextChildDob"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="date_of_birth"
+            android:importantForAutofill="no"
+            android:inputType="date"
+            android:background="@color/gray"
+            android:layout_marginTop="20dp"/>
+
+
+
+        <EditText
+            android:id="@+id/editTextChildRegDate"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="registered_date"
+            android:importantForAutofill="no"
+            android:inputType="date"
+            android:background="@color/gray"
+            android:layout_marginTop="20dp"/>
+
+
+        <Button
+            android:id="@+id/childBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="20dp"
+            android:text="Update" />
+
+    </LinearLayout>
+
+</ScrollView>
